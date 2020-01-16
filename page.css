@@ -1,0 +1,111 @@
+.page_content{
+	width: 76%;
+	height: auto;
+}
+
+
+.searchbox_repon{
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+}
+.content_text{
+	text-align: justify;
+	clear: left;
+}
+.line{
+	width: 90%;
+	height: 1px;
+	background:#ccc;
+	margin:auto;
+}
+.box_traffic{
+	width: 47%;
+	height: auto;
+	border-radius: 5px;
+	border:1px solid #ccc;
+}
+.box_traffic .icon{
+	width: 30%;
+	margin: auto;
+}
+
+
+
+.info_account{
+	width: 100%;height: 100px;
+}
+/*.info_account .info{
+	width: 50%;height: 50px;
+}*/
+.info .avatar_page{
+	border-radius: 50%;
+}
+.info .name_user{
+	margin-top: 0.1rem;
+}
+.info .source_name{
+	margin-top: -0.5rem;
+}
+/*.info_account .time_upload{
+	width: auto;
+	height: 50px;
+}*/
+.info h5,.info p,.tag_content,.document{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+.color_use,{
+	overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+.info h5 a,.tag_content p a,.document p a,.comment_choose p a,.comment_info_function p a,.seemore_post p a{
+	color: black;
+}
+.info h5 a:hover,.tag_content p a:hover,.document p a:hover,.comment_choose p a:hover,.seemore_post p a:hover{
+	text-decoration: none;
+	opacity: 0.7;
+	color: black;
+}
+.comment_info_function p a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.box_traffic:hover{
+	background: #ccc;
+}
+.comment_info_function p a{
+	color: #ccc;
+}
+.see_more:hover{
+	background: #ccc;
+}
+.info_day{
+	font-size: 90%;
+	opacity: 0.9;
+}
+.info_user,{
+	border-radius: 5px;
+}
+
+/*từ 1000px trở xuống thì áp dụng*/
+@media screen and (max-width:1000px){
+	.page_info{
+		display: none;
+	}
+	.page_content{
+		width: 100%;
+	}
+	.menuboxright{
+		display: none;
+	}
+}
+@media screen and (min-width:1001px){
+	.menuboxright_repon{
+		display: none;
+	}
+}
